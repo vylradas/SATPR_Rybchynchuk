@@ -1,0 +1,300 @@
+// Decision Tree
+digraph {
+	"P=20
+Pr=0.1
+Dm=20"
+	"P=20
+Pr=0.1
+Dm=20" -> "P=0
+Pr=0.1
+Dm=0" [label="Sold=20
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=300"]
+	"P=20
+Pr=0.1
+Dm=15"
+	"P=20
+Pr=0.1
+Dm=15" -> "P=5
+Pr=0.1
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=175"]
+	"P=20
+Pr=0.1
+Dm=10"
+	"P=20
+Pr=0.1
+Dm=10" -> "P=10
+Pr=0.1
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=10
+Final Income=50"]
+	"P=20
+Pr=0.6
+Dm=20"
+	"P=20
+Pr=0.6
+Dm=20" -> "P=0
+Pr=0.6
+Dm=0" [label="Sold=20
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=300"]
+	"P=20
+Pr=0.6
+Dm=15"
+	"P=20
+Pr=0.6
+Dm=15" -> "P=5
+Pr=0.6
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=175"]
+	"P=20
+Pr=0.6
+Dm=10"
+	"P=20
+Pr=0.6
+Dm=10" -> "P=10
+Pr=0.6
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=10
+Final Income=50"]
+	"P=20
+Pr=0.3
+Dm=20"
+	"P=20
+Pr=0.3
+Dm=20" -> "P=0
+Pr=0.3
+Dm=0" [label="Sold=20
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=300"]
+	"P=20
+Pr=0.3
+Dm=15"
+	"P=20
+Pr=0.3
+Dm=15" -> "P=5
+Pr=0.3
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=175"]
+	"P=20
+Pr=0.3
+Dm=10"
+	"P=20
+Pr=0.3
+Dm=10" -> "P=10
+Pr=0.3
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=10
+Final Income=50"]
+	"P=15
+Pr=0.1
+Dm=20"
+	"P=15
+Pr=0.1
+Dm=20" -> "P=0
+Pr=0.1
+Dm=5" [label="Sold=15
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.1
+Dm=15"
+	"P=15
+Pr=0.1
+Dm=15" -> "P=0
+Pr=0.1
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.1
+Dm=10"
+	"P=15
+Pr=0.1
+Dm=10" -> "P=5
+Pr=0.1
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=100"]
+	"P=15
+Pr=0.6
+Dm=20"
+	"P=15
+Pr=0.6
+Dm=20" -> "P=0
+Pr=0.6
+Dm=5" [label="Sold=15
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.6
+Dm=15"
+	"P=15
+Pr=0.6
+Dm=15" -> "P=0
+Pr=0.6
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.6
+Dm=10"
+	"P=15
+Pr=0.6
+Dm=10" -> "P=5
+Pr=0.6
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=100"]
+	"P=15
+Pr=0.3
+Dm=20"
+	"P=15
+Pr=0.3
+Dm=20" -> "P=0
+Pr=0.3
+Dm=5" [label="Sold=15
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.3
+Dm=15"
+	"P=15
+Pr=0.3
+Dm=15" -> "P=0
+Pr=0.3
+Dm=0" [label="Sold=15
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=225"]
+	"P=15
+Pr=0.3
+Dm=10"
+	"P=15
+Pr=0.3
+Dm=10" -> "P=5
+Pr=0.3
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=5
+Final Income=100"]
+	"P=10
+Pr=0.1
+Dm=20"
+	"P=10
+Pr=0.1
+Dm=20" -> "P=0
+Pr=0.1
+Dm=10" [label="Sold=10
+Not Sold=10
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.1
+Dm=15"
+	"P=10
+Pr=0.1
+Dm=15" -> "P=0
+Pr=0.1
+Dm=5" [label="Sold=10
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.1
+Dm=10"
+	"P=10
+Pr=0.1
+Dm=10" -> "P=0
+Pr=0.1
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.6
+Dm=20"
+	"P=10
+Pr=0.6
+Dm=20" -> "P=0
+Pr=0.6
+Dm=10" [label="Sold=10
+Not Sold=10
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.6
+Dm=15"
+	"P=10
+Pr=0.6
+Dm=15" -> "P=0
+Pr=0.6
+Dm=5" [label="Sold=10
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.6
+Dm=10"
+	"P=10
+Pr=0.6
+Dm=10" -> "P=0
+Pr=0.6
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.3
+Dm=20"
+	"P=10
+Pr=0.3
+Dm=20" -> "P=0
+Pr=0.3
+Dm=10" [label="Sold=10
+Not Sold=10
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.3
+Dm=15"
+	"P=10
+Pr=0.3
+Dm=15" -> "P=0
+Pr=0.3
+Dm=5" [label="Sold=10
+Not Sold=5
+Unsatisfied Demand=0
+Final Income=150"]
+	"P=10
+Pr=0.3
+Dm=10"
+	"P=10
+Pr=0.3
+Dm=10" -> "P=0
+Pr=0.3
+Dm=0" [label="Sold=10
+Not Sold=0
+Unsatisfied Demand=0
+Final Income=150"]
+}
